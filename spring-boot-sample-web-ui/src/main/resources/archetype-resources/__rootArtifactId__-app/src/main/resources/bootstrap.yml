@@ -1,0 +1,7 @@
+spring:
+  hymeleaf.cache: false
+  application.name: ${rootArtifactId}
+
+server.tomcat:
+  access_log_enabled: true
+  basedir: target/tomcat

@@ -1,0 +1,10 @@
+**/target/**
+**.idea
+**.iml
+**.orig
+**.jasper
+git.properties
+**/git.properties
+bin-debug
+nbactions*.xml
+nb-configuration*.xml

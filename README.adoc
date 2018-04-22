@@ -1,0 +1,20 @@
+# Spring boot samples microservice maven archetype
+
+### To generate microservice
+
+mvn archetype:generate\
+ -DarchetypeGroupId=com.onoguera.archetype\
+ -DarchetypeArtifactId=spring-boot-sample-web-ui\
+ -DarchetypeVersion=1.0.0-SNAPSHOT
+
+
+mvn archetype:generate -B\
+  -DarchetypeGroupId=com.onoguera.archetype\
+  -DarchetypeArtifactId=spring-boot-sample-web-ui\
+  -DarchetypeVersion=1.0.0-SNAPSHOT\
+  -DgroupId=com.onoguera\
+  -DartifactId=whalehunter\
+  -Dversion=1.0.0-SNAPSHOT
+
+
+
