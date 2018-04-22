@@ -2,18 +2,15 @@
 
 ### To generate microservice
 
-mvn archetype:generate\
- -DarchetypeGroupId=com.onoguera.archetype\
- -DarchetypeArtifactId=spring-boot-sample-web-ui\
- -DarchetypeVersion=1.0.0-SNAPSHOT
 
+mvn clean install
 
 mvn archetype:generate -B\
   -DarchetypeGroupId=com.onoguera.archetype\
   -DarchetypeArtifactId=spring-boot-sample-web-ui\
   -DarchetypeVersion=1.0.0-SNAPSHOT\
   -DgroupId=com.onoguera\
-  -DartifactId=whalehunter\
+  -DartifactId=example\
   -Dversion=1.0.0-SNAPSHOT
 
 
