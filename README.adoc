@@ -8,7 +8,7 @@ mvn clean install
 mvn archetype:generate -B\
   -DarchetypeGroupId=com.onoguera.archetype\
   -DarchetypeArtifactId=spring-boot-sample-web-ui\
-  -DarchetypeVersion=1.0.0-SNAPSHOT\
+  -DarchetypeVersion=0.9.1.RELEASE\
   -DgroupId=com.onoguera\
   -DartifactId=example\
   -Dversion=1.0.0-SNAPSHOT
